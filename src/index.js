@@ -20,3 +20,6 @@ const vm = new Vue({
 
   }
 })
+
+console.log(vm._data.msg)
+vm._data.msg = 'quanquan'
